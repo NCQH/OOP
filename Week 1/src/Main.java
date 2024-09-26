@@ -3,6 +3,9 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println(printHello());
+        for (String arg : args) {
+            System.out.println("Hello " + arg);
+        }
     }
 
     private static String printHello() {
